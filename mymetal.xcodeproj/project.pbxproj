@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59309D9B1F6E737B0081CFEE /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59309D9A1F6E737B0081CFEE /* Vertex.swift */; };
+		59309D9D1F6E74490081CFEE /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59309D9C1F6E74490081CFEE /* Node.swift */; };
+		59309D9F1F6E7B540081CFEE /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59309D9E1F6E7B540081CFEE /* Triangle.swift */; };
+		59309DA11F6E98A00081CFEE /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59309DA01F6E98A00081CFEE /* Cube.swift */; };
 		594755CF1F6D73B50055D7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594755CE1F6D73B50055D7B8 /* AppDelegate.swift */; };
 		594755D11F6D73B50055D7B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594755D01F6D73B50055D7B8 /* ViewController.swift */; };
 		594755D41F6D73B50055D7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594755D21F6D73B50055D7B8 /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		594755D91F6D73B50055D7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594755D71F6D73B50055D7B8 /* LaunchScreen.storyboard */; };
 		594755E41F6D73B50055D7B8 /* mymetalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594755E31F6D73B50055D7B8 /* mymetalTests.swift */; };
 		594755EF1F6D73B50055D7B8 /* mymetalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594755EE1F6D73B50055D7B8 /* mymetalUITests.swift */; };
+		594755FE1F6D73CA0055D7B8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594755FD1F6D73CA0055D7B8 /* Metal.framework */; };
+		594756001F6DFCD70055D7B8 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 594755FF1F6DFCD70055D7B8 /* Shaders.metal */; };
+		594756051F6E641A0055D7B8 /* Matrix4.m in Sources */ = {isa = PBXBuildFile; fileRef = 594756041F6E641A0055D7B8 /* Matrix4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59309D9A1F6E737B0081CFEE /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		59309D9C1F6E74490081CFEE /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		59309D9E1F6E7B540081CFEE /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		59309DA01F6E98A00081CFEE /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
 		594755CB1F6D73B50055D7B8 /* mymetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mymetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594755CE1F6D73B50055D7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		594755D01F6D73B50055D7B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		594755EA1F6D73B50055D7B8 /* mymetalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mymetalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594755EE1F6D73B50055D7B8 /* mymetalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mymetalUITests.swift; sourceTree = "<group>"; };
 		594755F01F6D73B50055D7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594755FD1F6D73CA0055D7B8 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		594755FF1F6DFCD70055D7B8 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		594756021F6E641A0055D7B8 /* mymetal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mymetal-Bridging-Header.h"; sourceTree = "<group>"; };
+		594756031F6E641A0055D7B8 /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4.h; sourceTree = "<group>"; };
+		594756041F6E641A0055D7B8 /* Matrix4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594755FE1F6D73CA0055D7B8 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,7 @@
 				594755E21F6D73B50055D7B8 /* mymetalTests */,
 				594755ED1F6D73B50055D7B8 /* mymetalUITests */,
 				594755CC1F6D73B50055D7B8 /* Products */,
+				594755FC1F6D73CA0055D7B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +115,19 @@
 		594755CD1F6D73B50055D7B8 /* mymetal */ = {
 			isa = PBXGroup;
 			children = (
+				594756011F6E64080055D7B8 /* Matrix4 */,
 				594755CE1F6D73B50055D7B8 /* AppDelegate.swift */,
+				59309DA01F6E98A00081CFEE /* Cube.swift */,
+				59309D9C1F6E74490081CFEE /* Node.swift */,
+				594755FF1F6DFCD70055D7B8 /* Shaders.metal */,
+				59309D9E1F6E7B540081CFEE /* Triangle.swift */,
+				59309D9A1F6E737B0081CFEE /* Vertex.swift */,
 				594755D01F6D73B50055D7B8 /* ViewController.swift */,
 				594755D21F6D73B50055D7B8 /* Main.storyboard */,
 				594755D51F6D73B50055D7B8 /* Assets.xcassets */,
 				594755D71F6D73B50055D7B8 /* LaunchScreen.storyboard */,
 				594755DA1F6D73B50055D7B8 /* Info.plist */,
+				594756021F6E641A0055D7B8 /* mymetal-Bridging-Header.h */,
 			);
 			path = mymetal;
 			sourceTree = "<group>";
@@ -123,6 +148,23 @@
 				594755F01F6D73B50055D7B8 /* Info.plist */,
 			);
 			path = mymetalUITests;
+			sourceTree = "<group>";
+		};
+		594755FC1F6D73CA0055D7B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594755FD1F6D73CA0055D7B8 /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594756011F6E64080055D7B8 /* Matrix4 */ = {
+			isa = PBXGroup;
+			children = (
+				594756031F6E641A0055D7B8 /* Matrix4.h */,
+				594756041F6E641A0055D7B8 /* Matrix4.m */,
+			);
+			name = Matrix4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +236,7 @@
 					594755CA1F6D73B50055D7B8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 77AHMYMCZV;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					594755DE1F6D73B50055D7B8 = {
@@ -262,7 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594756001F6DFCD70055D7B8 /* Shaders.metal in Sources */,
+				594756051F6E641A0055D7B8 /* Matrix4.m in Sources */,
 				594755D11F6D73B50055D7B8 /* ViewController.swift in Sources */,
+				59309D9D1F6E74490081CFEE /* Node.swift in Sources */,
+				59309DA11F6E98A00081CFEE /* Cube.swift in Sources */,
+				59309D9B1F6E737B0081CFEE /* Vertex.swift in Sources */,
+				59309D9F1F6E7B540081CFEE /* Triangle.swift in Sources */,
 				594755CF1F6D73B50055D7B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -417,11 +466,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 77AHMYMCZV;
 				INFOPLIST_FILE = mymetal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mycompany.mymetal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mymetal/mymetal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,11 +482,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 77AHMYMCZV;
 				INFOPLIST_FILE = mymetal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mycompany.mymetal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mymetal/mymetal-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +570,7 @@
 				594755F51F6D73B60055D7B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		594755F61F6D73B60055D7B8 /* Build configuration list for PBXNativeTarget "mymetalTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +579,7 @@
 				594755F81F6D73B60055D7B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		594755F91F6D73B60055D7B8 /* Build configuration list for PBXNativeTarget "mymetalUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +588,7 @@
 				594755FB1F6D73B60055D7B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
